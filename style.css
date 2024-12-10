@@ -132,35 +132,44 @@ border: none;
   display: flex;
   font-family: sans-serif;
   font-size: clamp(1.2rem, 3vw, 1.8rem);
-  align-items: center;
-  justify-content: center;
-  align-content: flex-start;
   gap: 8px;
-  margin-top: 32px;
   color: white;
 }
+
 .side-header > svg {
   height: 30px;
   fill: white;
 
 }
 
-#nav1 svg{
-   height: 30px;
+
+.nav-option {
+  display: flex;
+  align-items: center; 
+  gap: 10px; 
+  text-decoration: none; 
+  color: white; 
+}
+
+#nav svg{
+  height: 30px;
   fill: white;
 }
 
 
+
+
+
 .side-first{
-  margin-top: 100px;
+  margin-top: 12px;
 }
 
-#nav1{
+#nav{
   display: grid;
   grid-auto-rows: 2.5em;
   gap: 12px;
   justify-content: center;
-  align-items: start;
+  align-items: center;
   list-style: none;
   font-family: sans-serif;
   font-size: clamp(1.2rem, 2vw, 1.8rem);
@@ -176,9 +185,13 @@ li:hover{
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
+.side-second {
+  margin-top: 180%;
+}
+
 
 .Main {
     display: grid;
     grid-column: 2/2;
-    /* background-color: yellow; */
+    background-color: rgba(197, 193, 193, 0.543); 
 }
